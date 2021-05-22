@@ -1,0 +1,96 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build
+/build/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+lib/
+lib64/
+var/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Model snapshot files
+*.h5
+*.hdf5
+*.pkl
+*.dat
+
+# Images
+*.png
+*.jpg
+
+# Media files
+*.wav
+*.WAV
+*.avi
+
+# Video files
+*.mp4
+*.MP4
+
+# Compressed data
+*tar
+*tar.gz
+
+# Text data
+*.sbv
+*.srt
+*.vtt
+*.txt
+*.csv
+!requirements.txt
+
+# Binary numpy array data
+*.npy
+
+# IDE
+.vs/
+.vscode/
+.idea
