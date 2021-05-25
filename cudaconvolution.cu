@@ -19,7 +19,7 @@ extern "C" __device__ int32_t to1d(int32_t x, int32_t y, int32_t w) {
 // This function performs convolution on GPU
 //
 extern "C" __global__ void convolve(const uint32_t *src, uint32_t *dst,
-		                            const int32_t data_h, const int32_t data_w,
+		                    const int32_t data_h, const int32_t data_w,
                                     const float *kernel,
                                     const int k_h, const int k_w) {
     int global_x = blockIdx.x;
