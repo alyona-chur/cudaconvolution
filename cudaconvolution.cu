@@ -77,9 +77,9 @@ extern "C" __global__ void convolve(const uint32_t *src, uint32_t *dst,
 // This function performes one-channel image filtering
 //
 extern "C" int filter(const uint32_t *src, uint32_t *dst,
-		              const int32_t data_h, const int32_t data_w,
-		              const float *kernel,
-		              const int32_t k_h, const int32_t k_w) {
+		      const int32_t data_h, const int32_t data_w,
+		      const float *kernel,
+		      const int32_t k_h, const int32_t k_w) {
     int gpu_count;
     cudaGetDeviceCount(&gpu_count);
     cudaSetDevice(DEVICE_ID);
